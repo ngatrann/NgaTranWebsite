@@ -1,0 +1,128 @@
+  <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="Website" content= "Online portfolio">
+		<title>Nga Tran</title>
+		<link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+	<div id="homePage" class="pageDiv">
+		<nav class = nav-bar>
+			<ul>
+	        <li><a class="active" href="index.html">Home</a></li>
+	        <li><a href="About.html">About</a></li>
+	       	<li><a href="Project.html">Project</a></li>
+	        <li><a href="Resume.html">Resume</a></li>
+	     </ul>
+	    </nav>
+		<br></br>
+		<h1>WELCOME</h1>
+
+		<!-- Moving text  -->
+		<div class="intro-moving-text">
+			<span class="text static">C:\Users\ngatr></span>
+			<span class="text moving"></span>
+		</div>
+
+		<script>
+			const text = document.querySelector(".moving");
+
+			const textLoad = () => {
+				setTimeout(() => {
+					text.textContent = "Software Engineer. ";
+				}, 0);
+				setTimeout(() => {
+					text.textContent = "QA Engineer. ";
+				}, 7000);
+				setTimeout(() => {
+					text.textContent = "Cloud Engineer. ";
+				}, 14000);
+			}
+
+				textLoad();
+				setInterval(textLoad,21000);
+		</script>
+
+		<!-- Timeline -->
+		<div class="timeline">
+			<!-- About me section -->
+			<div class="container">
+				<div class="text-box">
+					<h2>Hi,I'm Nga!</h2>
+					<p>I'm a Software Developer with a background in Information Technology. I am currently working as a QA Enginere, where I get to ensure product quality across all components related to the Point of Sale.</p>
+					<p><br><br>Skills: <a href="NgaTranResume.docx" class="fa fa-download" target="_blank"></a> Resume.docx</p>
+				</div>
+				<div class="skill-list">
+					<div class="column"><p>Java<br> Selenium<br> HTML/CSS<br> JavaScript</p></div>
+					<div class="column"><p>Dart<br> SQL<br> AWS<br> Python</p></div>
+  					<div class="column"><p>Postman<br> Android Studio<br> Flutter<br> Jira</p></div>
+				</div>
+			</div>
+			<!-- Project section -->
+			<div class="container">
+				<div class="text-box">
+					<h2>Projects</h2>
+					<p>Explore my projects. Click to see more!</p>
+				</div>
+				<div class="project-list">	
+					<div class="project">
+  					<p id= "pName">Analysim</p> <br> <br>
+        			<p id= "pLanguages">PostgreSQL|Bootstrap|C# </p> <br>
+        			<a href="https://grammark.herokuapp.com/" target="_blank" >GitHub>&nbsp;</a> <a href="https://www.analysim.tech/home" target="_blank">Website></a>
+        			<!-- <p id= "pDetail">Analysim is a data sharing platform.</p> -->
+        			<a href="https://www.analysim.tech/home" target="_blank"><img src="Analysim.png" alt="Analysim"></a>
+      			</div>
+					<div class="project">
+						<p id= "pName">Grammark</p> <br> <br>
+						<p id= "pLanguages"> HTML/CSS|TypeScript</p> <br>
+						<a href="https://grammark.herokuapp.com/" target="_blank">GitHub></a>
+						<!-- <p id= "pDetail">Grammark is a writing assistance tool.</p> -->
+						<a href="https://grammark.herokuapp.com/" target="_blank"><img src="Grammark.jpg" alt="Grammark" ></a>
+					</div>
+				</div>
+
+				 <div class="project">
+				 	<p id= "pName">TicTacToe</p> <br> <br>
+  					<p id= "pLanguages"> HTML/CSS|JavaScript</p> <br>
+  					<a href="https://grammark.herokuapp.com/" target="_blank">GitHub></a>
+  					<!-- <p id= "pDetail">Classic Tic-Tac-Toe game!</p> -->
+				 	<a href="TicTacToePage.html" target="_blank"><img src="TicTacToe.JPG" alt="TicTacToe"></a>
+  				</div>
+			</div>
+			<!-- Contact section -->
+			<div class="container">
+				<div class="text-box">
+					<h2>Get in touch</h2>
+				</div>
+				<div class="contact-text-box">
+					<form class="contact-form">
+						<p>Name</p>
+						<input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+						<p>Email</p>
+						<input type="email" name="email" placeholder="Your Email" class="contact-input" required>
+						<p>Message</p>
+						<textarea name="message" placeholder="Message" class="contact-input" required=""></textarea>
+						<button type="submit">Send </button>
+					</form>
+					<div class="contact-picture">
+						<img src="Me.png">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+    	<div class="footer">
+    		<div class="social-link">
+    			<a href="https://www.linkedin.com/in/nga-tran-3206541a3/" class="fa fa-linkedin fa-3x" target="_blank"></a>
+    			<a href="https://github.com/ngatrann" class="fa fa-github fa-3x" target="_blank"></a>
+    		</div>
+    		<!-- <div><p>This website in under progress, check back for more updates!</p></div> -->
+    	</div>
+	</div>
+	</body>
+</div>
+</html>
