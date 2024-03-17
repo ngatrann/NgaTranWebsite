@@ -14,7 +14,7 @@ html {
 body{
   font-family: courier, sans-serif;
   overflow: hidden;
-  background-image: url(SpaceBackground.png);
+  background-image: url("SpaceBackground.png");
 }
 
 p{
