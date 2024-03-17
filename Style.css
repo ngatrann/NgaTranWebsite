@@ -14,7 +14,7 @@ html {
 body{
   font-family: courier, sans-serif;
   overflow: hidden;
-  background-image: url("SpaceBackground.png");
+  background-image: url('../SpaceBackground.png');
 }
 
 p{
@@ -122,7 +122,7 @@ span{ /* moving text size*/
   padding: 2%;
 }
 .footer{
-  background-image: url(SpaceFooter.png);
+  background-image: url('../SpaceFooter.png');
   padding: 50px;
 
 }
