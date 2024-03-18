@@ -12,7 +12,7 @@ html {
 }
 
 body{
-  font-family: courier, sans-serif;
+  font-family: Gill Sans, courier;
   overflow: hidden;
   background-image: url(SpaceBackground.PNG);
 }
@@ -237,6 +237,10 @@ img {
 
 .contact-form button:hover{
    background-color: #0C090A;
+}
+
+.contact-picture{
+/*  margin-right: 100px;*/
 }
 
 .footer p{
