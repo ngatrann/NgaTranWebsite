@@ -243,6 +243,12 @@ img {
 /*  margin-right: 100px;*/
 }
 
+.in-progess-text{
+  text-align: right;
+  padding-right: 100px;
+  color: white;
+}
+
 .footer p{
   color: black;
 }
